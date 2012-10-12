@@ -29,6 +29,6 @@ You'll need to clone the repo then move `bobafett` somewhere in your path. I kee
 Thanks
 ------
 
-I would like to thank Brian W. Kernighan and Rob Pike for writing ***The Unix Programming Environment***. It was a fantastic introduction to unix and the shell.
+I would like to thank Brian W. Kernighan and Rob Pike for writing ***The Unix Programming Environment***. It was a fantastic introduction to unix and the shell. Without it I would not have thought to write this command.
 
 
