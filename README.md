@@ -20,6 +20,15 @@ Done. He's effecient and quick.
 
 
 Installation
-------------
+============
 
 You'll need to clone the repo then move `bobafett` somewhere in your path. I keep him in `/usr/local/bin`
+
+
+
+Thanks
+------
+
+I would like to thank Brian W. Kernighan and Rob Pike for writing ***The Unix Programming Environment***. It was a fantastic introduction to unix and the shell.
+
+
