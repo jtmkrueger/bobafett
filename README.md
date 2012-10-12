@@ -1,3 +1,6 @@
+### tl;dr
+It's an alias for pkill.
+
 Usage
 =====
 
