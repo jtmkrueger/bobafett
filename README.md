@@ -19,7 +19,7 @@ As you wish.
 ~$
 ```
 
-Done. The Chrome process is dead. He's effecient and quick.
+Done. The Chrome process is dead. He's efficient and quick.
 
 
 Installation
