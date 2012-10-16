@@ -1,6 +1,6 @@
 #!/bin/zsh
 echo "As you wish."
-pkill $1
+pkill $@
 
 # initial overkill implementation
 # ps aux | grep $1 | awk '{if(NR == 1){print $2}}' | xargs kill -9
