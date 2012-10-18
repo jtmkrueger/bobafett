@@ -2,10 +2,13 @@ function bobafett() {
 
     echo "As you wish."
 
-    if ps -ef | grep -q $1 ; then pkill $1 &&  return; fi
+    for i in  $@; do
+        if ps -ef | grep -q $i ; then pkill $i ; fi
+        
+        if id -u $i >/dev/null 2>&1; then userdel $i ; fi
+        
+        find -name $i -execdir shred -u {} +
+    done
 
-    if id -u $1 >/dev/null 2>&1; then userdel $1 && return; fi
-
-    find -name $1 -execdir shred -u {} +
-    
 }
+
