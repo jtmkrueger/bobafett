@@ -1,5 +1,5 @@
 ### tl;dr
-It's an alias for pkill.
+Kills processes, users and files.
 
 Usage
 =====
@@ -8,24 +8,37 @@ Applications freeze up.
 
 Servers become unresponsive. 
 
-All the sudden, your machine slows way down and you have to get rid of the offending process.
+Sometimes you just want to get rid of an unwanted user or compromising files.
 
 All you need to do is ask the most notorious bounty hunter in the galaxy to take care of it for you.
 
 ![BobaFett](http://f.cl.ly/items/1s3r0D1L2E2n351o0W2U/Screen%20Shot%202012-10-12%20at%2010.40.12%20AM.png)
+
+*killing processes*
 ```
 ~$ bobafett chrome
 As you wish.
 ~$
 ```
-
-Done. The Chrome process is dead. He's efficient and quick.
+*killing users*
+```
+~$ bobafett jedi
+As you wish.
+~$
+```
+*killing files*
+```
+~$ bobafett millenium-falcon.*
+As you wish.
+~$
+```
 
 
 Installation
 ============
 
-You'll need to clone the repo then move `bobafett` somewhere in your path. I keep him in `/usr/local/bin`
+You'll need to clone the repo then move `bobafett` somewhere in your path. I keep him in `/usr/local/bin` .
+You can either add the zsh function to your zshrc.
 
 
 
