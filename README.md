@@ -38,7 +38,7 @@ Installation
 ============
 
 You'll need to clone the repo then move `bobafett` somewhere in your path. I keep him in `/usr/local/bin` .
-You can either add the zsh function to your zshrc.
+You may also add the zsh function to your zshrc instead of putting the file in your path.
 
 
 
