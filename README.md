@@ -8,8 +8,6 @@ Applications freeze up.
 
 Servers become unresponsive. 
 
-Sometimes you just want to get rid of an unwanted user or compromising files.
-
 All you need to do is ask the most notorious bounty hunter in the galaxy to take care of it for you.
 
 ![BobaFett](http://f.cl.ly/items/1s3r0D1L2E2n351o0W2U/Screen%20Shot%202012-10-12%20at%2010.40.12%20AM.png)
@@ -23,12 +21,6 @@ As you wish.
 *killing users*
 ```
 ~$ bobafett jedi
-As you wish.
-~$
-```
-*killing files*
-```
-~$ bobafett millenium-falcon.*
 As you wish.
 ~$
 ```
